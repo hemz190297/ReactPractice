@@ -53,6 +53,7 @@ import TernaryOperator from './practice/javaScript/conditionStatement/LogicalOpe
 import LogicalOperator from './practice/javaScript/conditionStatement/LogicalOperator';
 import Plymorphism from './practice/javaScript/conditionStatement/Polymorphism';
 import ArrayOfConditions from './practice/javaScript/conditionStatement/ArrayOfConditions';
+import HocApp from './practice/hoc/HocApp';
 
 const App = () => {
     return (
@@ -63,7 +64,8 @@ const App = () => {
           {/* <TernaryOperator role={'viewer'}/> */}
           {/* <LogicalOperator role={'admin'}/> */}
           {/* <Plymorphism role={'editor'}/> */}
-          <ArrayOfConditions role={'viewer'}/>
+          {/* <ArrayOfConditions role={'viewer'}/> */}
+          <HocApp/>
         </View>
     )
 }

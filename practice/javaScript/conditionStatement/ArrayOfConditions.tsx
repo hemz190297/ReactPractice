@@ -22,6 +22,4 @@ const ArrayOfConditions: React.FC<{ role: Role }> = ({ role }) => {
         </View>
     )
 }
-
-
 export default ArrayOfConditions
